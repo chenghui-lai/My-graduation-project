@@ -1,0 +1,10 @@
+<view class="signincheck">
+
+<view class="check-list">
+<image class= "homeworkimg" src="/image/read.png"></image>
+
+<view class="swiper_item">{{homework1}}</view>
+
+
+</view>
+</view>

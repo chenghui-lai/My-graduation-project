@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+</swiper>
+
+<view class="plate">
+  <navigator url="/pages/schooldetails/schooldetails" hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a1src}}"></image>
+       </view>
+       <text class="plate-info">
+        学校简介
+       </text>
+  </navigator>
+  <navigator url="/pages/signup/signup"  hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a4src}}"></image>
+       </view>
+       <text class="plate-info">
+        报名流程
+       </text>
+  </navigator>
+  <navigator url="/pages/homework/homework" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a2src}}"></image>
+       </view>
+       <text class="plate-info">
+        今日作业
+       </text>
+  </navigator>
+  <navigator url="/pages/schedule/schedule" hover-class="navigator-hover"   class="plate-item">
+     <view class="plate-img" >
+       <image src="{{a3src}}"></image>
+       </view>
+       <text class="plate-info">
+        本周课表
+       </text>
+  </navigator>
+</view>
+<view class="clear"></view>
+<!-----------------------------------特色课程--------------------------------------------->
+  <view class="utitle">
+    <view class="mtitle">特色课程</view>
+    <view class="ztitle">Charactesristic</view>
+  </view>
+  <view class="introduct">
+    <view class="inner">
+      <navigator class="pleft" url="/pages/coursedetail/coursedetail?id={{news[0].id}}">
+        <image src="{{news[0].adthumb}}" mode="scaleToFill"></image>
+      </navigator>
+      <view class="pright">
+        <navigator class="psmall" url="/pages/coursedetail/coursedetail?id={{news[1].id}}">
+          <image src="{{news[1].adthumb}}" mode="scaleToFill"></image>
+        </navigator>
+        <view class="ubom10rpx"></view>
+        <navigator class="psmall" url="/pages/coursedetail/coursedetail?id={{news[2].id}}">
+          <image src="{{news[2].adthumb}}" mode="scaleToFill"></image>
+        </navigator>
+      </view>
+    </view>
+  </view>
+<!-----------------------------------特色课程--------------------------------------------->
+
+
+

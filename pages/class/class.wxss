@@ -1,0 +1,48 @@
+/**index.wxss**/
+.plate{
+  height:240rpx;
+  background: #fff;
+}
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  width: 140rpx;
+  height:180rpx;
+  margin-top:38rpx; 
+  margin-left:42rpx;
+}
+.plate-img image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.plate-info{
+  position: absolute;
+  height:40rpx;
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  bottom: 60rpx;
+  left:-10rpx;
+
+}
+.swiper_com {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding-bottom: 0.2em;
+  background: #fff;
+  box-shadow: 0.5px 1px 10px #200101;
+}
+.swiper_item {
+  font-size: 35rpx;
+  overflow: hidden;
+  margin:5px;
+  font-family: '微软雅黑';
+  text-overflow: ellipsis;
+  letter-spacing: 2px;
+  white-space:pre-wrap;
+}
+

@@ -1,0 +1,39 @@
+<view class="plate">
+  <navigator url="/pages/homework/homework" hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a2src}}"></image>
+       </view>
+       <text class="plate-info">
+        今日作业
+       </text>
+  </navigator>
+  <navigator url="/pages/handinhomework/handinhomework"  hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a3src}}"></image>
+       </view>
+       <text class="plate-info">
+        提交作业
+       </text>
+  </navigator>
+  <navigator url="/pages/teachingfeedback/teachingfeedback" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a4src}}"></image>
+       </view>
+       <text class="plate-info">
+        教学反馈
+       </text>
+  </navigator>
+ 
+ <swiper class="swiper_com" vertical="true" autoplay="true" circular="true" interval="2000">
+ <view>公告：</view>
+    <block wx:for="{{msgList}}">
+      <navigator url="/pages/index/index?title={{item.url}}" open-type="navigate">
+        <swiper-item>
+          <view class="swiper_item">{{item.title}}</view>
+        </swiper-item>
+      </navigator>
+    </block>
+  </swiper>
+
+</view>
+<view class="clear"></view>

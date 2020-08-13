@@ -1,0 +1,45 @@
+page{
+    background-color: #fff;
+}
+.container{
+    padding:0;
+}
+
+.wrapper{
+    width: 100%;
+}
+.personInfo{
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    margin: 0 auto;
+    margin-top: 8.5em;
+    padding-bottom: 0.8em;
+    background: #fff;
+    box-shadow: 2px 5px 30px #d1d1d1;
+    transform: translateY(-230px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.personInfo image{
+    padding:0.5em;
+}
+.content{
+    transform: translateY(-220px);
+    width: 90%;
+    padding: 1em;   
+}
+.content .title{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin:1em 0;
+    padding-bottom:0.5em;
+    border-bottom: 2px solid #333333; 
+}
+.content image{
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 0.5em; 
+}

@@ -1,0 +1,183 @@
+/**index.wxss**/
+.slide-image{
+  width:100%;
+  height:400rpx;
+}
+
+.plate{
+  height:240rpx;
+  background: #fff;
+}
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  width: 140rpx;
+  height:180rpx;
+  margin-top:38rpx; 
+  margin-left:42rpx;
+}
+.plate-img image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.plate-info{
+  position: absolute;
+  height:40rpx;
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  bottom: 60rpx;
+  left:-10rpx;
+
+}
+ 
+.page {
+    width: 98%;
+    height: auto;
+    background: #fff;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 20rpx;
+    position: absolute;
+}
+
+.title {
+    font-size: 18px;
+    color: #000;
+}
+
+.line {
+    height: 1rpx;
+    background: #f2f2f2;
+}
+
+.btn {
+    background: #7fabfd;
+}
+
+.item {
+    height: 200rpx;
+    margin-top: 20rpx;
+    overflow: hidden;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.item .lt {
+    float: left;
+    width: 200rpx;
+}
+
+.item .lt image {
+    width: 180rpx;
+    height: 160rpx;
+    margin-top: 20rpx;
+    margin-left: 10rpx;
+}
+
+.item .rt .name {
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 26rpx;
+}
+
+.item .rt .xinghao {
+    line-height: 40rpx;
+    height: 40rpx;
+}
+
+.item .rt {
+    float: left;
+    width: 480rpx;
+    height: 180rpx;
+    margin-top: 20rpx;
+    position: relative;
+}
+
+.baoming {
+    height: 50rpx;
+    width: 140rpx;
+    position: absolute;
+    right: 10rpx;
+    bottom: 10rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    font-size: 26rpx;
+}
+
+.item .rt .price {
+    line-height: 40rpx;
+    height: 40rpx;
+}
+
+.price .money {
+    color: red;
+    font-weight: bold;
+    font-size: 26rpx;
+}
+
+.search {
+    width: 80%;
+    height: 60rpx;
+    background: #fff;
+    border-radius: 20rpx;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30rpx;
+}
+
+.search button {
+    float: right;
+    width: 30%;
+    border: 0;
+    height: 62rpx;
+    font-size: 24rpx;
+    line-height: 62rpx;
+    color: #fff;
+}
+
+.search input {
+    width: 60%;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 24rpx;
+    margin-left: 5%;
+    float: left;
+}
+.help {
+  width: 720rpx;
+  margin: 0 auto;
+}
+.help .help_item {
+  margin: 10rpx auto;
+}
+.help .help_item .title {
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #e2e2e2;
+  display: flex;
+}
+.help .help_item .title .title_1 {
+  width: 630rpx;
+  height: 60rpx;
+  padding-left: 20rpx;
+   border-left:10rpx solid #4ec4c8;
+}
+.help .help_item .title .title_2 {
+  width: 50rpx;
+  height: 60rpx;
+  text-align: center;
+}
+.help .help_item .title .title_2 image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 10rpx auto;
+}
+.help .help_item .detail {
+  margin: 5rpx auto;
+  font-size: 25rpx;
+  line-height: 40rpx;
+  text-indent: 0.25em;
+}

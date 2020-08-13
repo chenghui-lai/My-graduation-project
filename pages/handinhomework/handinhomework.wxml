@@ -1,0 +1,17 @@
+
+
+<!-- 图片预览 -->
+<view class='preview-warp' wx:if="{{userimage}}">
+  <image  src='{{userimage}}' />
+  <view>
+</view>
+</view>
+<view class="prew_video" hidden="{{chooesVideo==''}}">
+  <video bindfullscreenchange="bindVideoScreenChange" src="{{chooesVideo}}" ></video>
+</view>
+
+
+<!-- 按钮组 -->
+<view class='upimg' bindtap='chooseImg'>提交图片</view>
+<view class='upvideo' bindtap='chooseVideo'>提交视频</view>
+

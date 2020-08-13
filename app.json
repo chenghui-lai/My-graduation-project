@@ -1,0 +1,57 @@
+{
+  "pages": [
+
+    
+    "pages/index/index",
+    "pages/check/check",
+    "pages/class/class",
+    "pages/action/action",
+    "pages/about/about"
+ 
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4ec4c8",
+    "navigationBarTitleText": "艺管家",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#4ec5c9",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/homeactive.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "班级圈",
+        "iconPath": "image/bm.png",
+        "selectedIconPath": "image/bmactive.png"
+      },
+      {
+        "pagePath": "pages/action/action",
+        "text": "课程介绍",
+        "iconPath": "image/action.png",
+        "selectedIconPath": "image/actionactive.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的",
+        "iconPath": "image/action.png",
+        "selectedIconPath": "image/actionactive.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

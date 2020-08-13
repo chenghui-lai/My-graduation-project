@@ -1,0 +1,30 @@
+<!-- 资讯详情 -->
+<view class="container">
+
+        <image class="wrapper" src="/image/beijing.jpg" />
+
+    <view class="personInfo">
+        <image src="/image/photo.png" mode="widthFix" style="width:18%" />
+    </view>
+    <view class="content">
+        <view class="title">
+            <image src="/image/read.png" mode="widthFix" style="width:7%" />
+            <text>学校简介</text>
+        </view>
+        <text class="content1">{{zixun.text1}}</text>
+    </view>
+    <view class="content">
+        <view class="title">
+            <image src="/image/read.png" mode="widthFix" style="width:7%" />
+            <text>教学环境</text>
+        </view>
+        <text class="content1">{{zixun.text2}}</text>
+    </view>
+    <view class="content">
+        <view class="title">
+            <image src="/image/read.png" mode="widthFix" style="width:7%" />
+            <text>师资情况</text>
+        </view>
+        <text class="content1">{{zixun.text3}}</text>
+    </view>
+</view>
